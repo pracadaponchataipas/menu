@@ -1,0 +1,19 @@
+link oficial site: https://pracadaponcha.eatbu.com/
+
+- map of page:
+
+    - same background color of pdf menu attached;
+
+    - big "MENU" equals to the one in pdf;
+
+    - kinda of table of buttons, single column, each button corresponds to one chapter in pdf, and when clicked opens a span with the menu;
+
+    - try to insert the images in the background of the span revealed
+
+- button's behavior:
+
+    - reveal:
+        - when clicked;
+    - hide:
+        - when clicked;
+        - when other is revealed;
