@@ -1,7 +1,7 @@
 @import url("variables.css");
 
 .chapterTitleClass {
-    max-width: 400px;
+    max-width: var(--base-max-width);
     padding: 10px 0 10px;
     font-size: var(--chapter-title-font-size);
     font-family: var(--chapter-title-font-family);
@@ -9,10 +9,17 @@
     color: var(--font-color);
     background-color: var(--chapter-title-background-color);
     border-radius: 42px;
+    box-shadow: 0 2px 3px var(--chapter-title-shadow-color);
+}
+
+.chapterTitleClass:hover {
+    background-color: var(--chapter-title-background-color-hover);
+    box-shadow: 0 2px 3px var(--chapter-title-shadow-color-hover);
+    cursor: pointer;
 }
 
 .chapterContentClass {
-    max-width: 400px;
+    max-width: var(--base-max-width);
     padding: 0;
     font-size: var(--chapter-content-font-size);
     font-family: var(--chapter-content-font-family);

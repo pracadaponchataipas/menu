@@ -1,11 +1,16 @@
 .mainTheme {
     --body-background-color: #fbf7c4;
     --chapter-title-background-color: #d1b383;
+    --chapter-title-background-color-hover: #b19363;
+    --chapter-title-shadow-color: #808080;
+    --chapter-title-shadow-color-hover: #606060;
     --font-color: #121212;
 
-    --chapter-title-font-family: serif;
+    --chapter-title-font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
     --chapter-content-font-family: monospace;
 
     --chapter-title-font-size: 30px;
     --chapter-content-font-size: 16px;
+
+    --base-max-width: 500px;
 }
