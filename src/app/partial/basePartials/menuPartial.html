@@ -1,70 +1,177 @@
 <div>
-    <p class="chapterTitleClass">FINGER FOOD</p>
+    <p class="chapterTitleClass" ng-click="showHideChapter(0)">
+        FINGER FOOD
+    </p>
     <ng-include
-        src="'src/app/partial/chaptersPartials/01_fingerFoodPartial.html'"
-        ng-if="fingerFood">
+        src="'src/app/partial/chaptersPartials/00_fingerFoodPartial.html'"
+        ng-if="chapters[0].isSelected">
     </ng-include>
 
-    <p class="chapterTitleClass">PREGO</p>
-    <!-- <ng-include src="'src/app/partial/chaptersPartials/pregoPartial.html'"></ng-include> -->
+    <p class="chapterTitleClass" ng-click="showHideChapter(1)">
+        PREGO
+    </p>
+    <ng-include
+        src="'src/app/partial/chaptersPartials/01_pregoPartial.html'"
+        ng-if="chapters[1].isSelected">
+    </ng-include>
 
-    <p class="chapterTitleClass">HAMBURGER</p>
-    <!-- <ng-include src="'src/app/partial/chaptersPartials/hamburgerPartial.html'"></ng-include> -->
+    <p class="chapterTitleClass" ng-click="showHideChapter(2)">
+        HAMBURGER
+    </p>
+    <ng-include
+        src="'src/app/partial/chaptersPartials/02_hamburgerPartial.html'"
+        ng_if="chapters[2].isSelected">
+    </ng-include>
 
-    <p class="chapterTitleClass">SOBREMESAS</p>
-    <!-- <ng-include src="'src/app/partial/chaptersPartials/sobremesasPartial.html'"></ng-include> -->
+    <p class="chapterTitleClass" ng-click="showHideChapter(3)">
+        SOBREMESAS
+    </p>
+    <ng-include
+        src="'src/app/partial/chaptersPartials/03_sobremesasPartial.html'"
+        ng_if="chapters[3].isSelected">
+    </ng-include>
 
-    <p class="chapterTitleClass">SHISHA</p>
-    <!-- <ng-include src="'src/app/partial/chaptersPartials/shishaPartial.html'"></ng-include> -->
+    <p class="chapterTitleClass" ng-click="showHideChapter(4)">
+        SHISHA
+    </p>
+    <ng-include
+        src="'src/app/partial/chaptersPartials/04_shishaPartial.html'"
+        ng_if="chapters[4].isSelected">
+    </ng-include>
 
-    <p class="chapterTitleClass">GIN</p>
-    <!-- <ng-include src="'src/app/partial/chaptersPartials/ginPartial.html'"></ng-include> -->
+    <p class="chapterTitleClass" ng-click="showHideChapter(5)">
+        GIN
+    </p>
+    <ng-include
+        src="'src/app/partial/chaptersPartials/05_ginPartial.html'"
+        ng_if="chapters[5].isSelected">
+    </ng-include>
 
-    <p class="chapterTitleClass">WHISKY</p>
-    <!-- <ng-include src="'src/app/partial/chaptersPartials/whiskyPartial.html'"></ng-include> -->
+    <p class="chapterTitleClass" ng-click="showHideChapter(6)">
+        WHISKY
+    </p>
+    <ng-include
+        src="'src/app/partial/chaptersPartials/06_whiskyPartial.html'"
+        ng_if="chapters[6].isSelected">
+    </ng-include>
 
-    <p class="chapterTitleClass">VODKA</p>
-    <!-- <ng-include src="'src/app/partial/chaptersPartials/vodkaPartial.html'"></ng-include> -->
+    <p class="chapterTitleClass" ng-click="showHideChapter(7)">
+        VODKA
+    </p>
+    <ng-include
+        src="'src/app/partial/chaptersPartials/07_vodkaPartial.html'"
+        ng_if="chapters[7].isSelected">
+    </ng-include>
 
-    <p class="chapterTitleClass">RUM</p>
-    <!-- <ng-include src="'src/app/partial/chaptersPartials/rumPartial.html'"></ng-include> -->
+    <p class="chapterTitleClass" ng-click="showHideChapter(8)">
+        RUM
+    </p>
+    <ng-include
+        src="'src/app/partial/chaptersPartials/08_rumPartial.html'"
+        ng_if="chapters[8].isSelected">
+    </ng-include>
 
-    <p class="chapterTitleClass">SANGRIA</p>
-    <!-- <ng-include src="'src/app/partial/chaptersPartials/sangriaPartial.html'"></ng-include> -->
+    <p class="chapterTitleClass" ng-click="showHideChapter(9)">
+        SANGRIA
+    </p>
+    <ng-include
+        src="'src/app/partial/chaptersPartials/09_sangriaPartial.html'"
+        ng_if="chapters[9].isSelected">
+    </ng-include>
 
-    <p class="chapterTitleClass">PONCHA</p>
-    <!-- <ng-include src="'src/app/partial/chaptersPartials/ponchaPartial.html'"></ng-include> -->
+    <p class="chapterTitleClass" ng-click="showHideChapter(10)">
+        PONCHA
+    </p>
+    <ng-include
+        src="'src/app/partial/chaptersPartials/10_ponchaPartial.html'"
+        ng_if="chapters[10].isSelected">
+    </ng-include>
 
-    <p class="chapterTitleClass">CERVEJA</p>
-    <!-- <ng-include src="'src/app/partial/chaptersPartials/cervejaPartial.html'"></ng-include> -->
+    <p class="chapterTitleClass" ng-click="showHideChapter(11)">
+        CERVEJA
+    </p>
+    <ng-include
+        src="'src/app/partial/chaptersPartials/11_cervejaPartial.html'"
+        ng_if="chapters[11].isSelected">
+    </ng-include>
 
-    <p class="chapterTitleClass">VINHO</p>
-    <!-- <ng-include src="'src/app/partial/chaptersPartials/vinhoPartial.html'"></ng-include> -->
+    <p class="chapterTitleClass" ng-click="showHideChapter(12)">
+        VINHO
+    </p>
+    <ng-include
+        src="'src/app/partial/chaptersPartials/12_vinhoPartial.html'"
+        ng_if="chapters[12].isSelected">
+    </ng-include>
 
-    <p class="chapterTitleClass">ESPUMANTE</p>
-    <!-- <ng-include src="'src/app/partial/chaptersPartials/espumantePartial.html'"></ng-include> -->
+    <p class="chapterTitleClass" ng-click="showHideChapter(13)">
+        ESPUMANTE
+    </p>
+    <ng-include
+        src="'src/app/partial/chaptersPartials/13_espumantePartial.html'"
+        ng_if="chapters[13].isSelected">
+    </ng-include>
 
-    <p class="chapterTitleClass">CHAMPAGNE</p>
-    <!-- <ng-include src="'src/app/partial/chaptersPartials/champagnePartial.html'"></ng-include> -->
+    <p class="chapterTitleClass" ng-click="showHideChapter(14)">
+        CHAMPAGNE
+    </p>
+    <ng-include
+        src="'src/app/partial/chaptersPartials/14_champagnePartial.html'"
+        ng_if="chapters[14].isSelected">
+    </ng-include>
 
-    <p class="chapterTitleClass">APERITIVOS</p>
-    <!-- <ng-include src="'src/app/partial/chaptersPartials/aperitivosPartial.html'"></ng-include> -->
+    <p class="chapterTitleClass" ng-click="showHideChapter(15)">
+        APERITIVOS
+    </p>
+    <ng-include
+        src="'src/app/partial/chaptersPartials/15_aperitivosPartial.html'"
+        ng_if="chapters[15].isSelected">
+    </ng-include>
 
-    <p class="chapterTitleClass">LICORES</p>
-    <!-- <ng-include src="'src/app/partial/chaptersPartials/licoresPartial.html'"></ng-include> -->
+    <p class="chapterTitleClass" ng-click="showHideChapter(16)">
+        LICORES
+    </p>
+    <ng-include
+        src="'src/app/partial/chaptersPartials/16_licoresPartial.html'"
+        ng_if="chapters[16].isSelected">
+    </ng-include>
 
-    <p class="chapterTitleClass">COCKTAILS</p>
-    <!-- <ng-include src="'src/app/partial/chaptersPartials/cocktailsPartial.html'"></ng-include> -->
+    <p class="chapterTitleClass" ng-click="showHideChapter(17)">
+        COCKTAILS
+    </p>
+    <ng-include
+        src="'src/app/partial/chaptersPartials/17_cocktailsPartial.html'"
+        ng_if="chapters[17].isSelected">
+    </ng-include>
 
-    <p class="chapterTitleClass">COCKTAILS S/ ALCOOL</p>
-    <!-- <ng-include src="'src/app/partial/chaptersPartials/cocktailsSAlcoolPartial.html'"></ng-include> -->
+    <p class="chapterTitleClass" ng-click="showHideChapter(18)">
+        COCKTAILS S/ ALCOOL
+    </p>
+    <ng-include
+        src="'src/app/partial/chaptersPartials/18_cocktailsSAlcoolPartial.html'"
+        ng_if="chapters[18].isSelected">
+    </ng-include>
 
-    <p class="chapterTitleClass">SHOT</p>
-    <!-- <ng-include src="'src/app/partial/chaptersPartials/shotPartial.html'"></ng-include> -->
+    <p class="chapterTitleClass" ng-click="showHideChapter(19)">
+        SHOT
+    </p>
+    <ng-include
+        src="'src/app/partial/chaptersPartials/19_shotPartial.html'"
+        ng_if="chapters[19].isSelected">
+    </ng-include>
 
-    <p class="chapterTitleClass">CAFETARIA</p>
-    <!-- <ng-include src="'src/app/partial/chaptersPartials/cafetariaPartial.html'"></ng-include> -->
+    <p class="chapterTitleClass" ng-click="showHideChapter(20)">
+        CAFETARIA
+    </p>
+    <ng-include
+        src="'src/app/partial/chaptersPartials/20_cafetariaPartial.html'"
+        ng_if="chapters[20].isSelected">
+    </ng-include>
 
-    <p class="chapterTitleClass">BEBIDAS S/ ALCOOL</p>
-    <!-- <ng-include src="'src/app/partial/chaptersPartials/bebidasSAlcoolPartial.html'"></ng-include> -->
+    <p class="chapterTitleClass" ng-click="showHideChapter(21)">
+        BEBIDAS S/ ALCOOL
+    </p>
+    <ng-include
+        src="'src/app/partial/chaptersPartials/21_bebidasSAlcoolPartial.html'"
+        ng_if="chapters[21].isSelected">
+    </ng-include>
 </div>
