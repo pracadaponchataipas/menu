@@ -4,13 +4,15 @@
     --chapter-title-background-color-hover: #b19363;
     --chapter-title-shadow-color: #808080;
     --chapter-title-shadow-color-hover: #606060;
-    --font-color: #121212;
+    --base-font-color: #121212;
+    --footer-font-color: #343434;
 
     --chapter-title-font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
     --chapter-content-font-family: monospace;
 
     --chapter-title-font-size: 30px;
-    --chapter-content-font-size: 16px;
+    --chapter-content-font-size: 14px;
 
     --base-max-width: 500px;
 }
+
