@@ -1,6 +1,9 @@
-<div style="margin-bottom: 100px;">
+<div>
     <p class="chapterTitleClass">FINGER FOOD</p>
-    <ng-include src="'src/app/partial/chaptersPartials/01_fingerFoodPartial.html'"></ng-include>
+    <ng-include
+        src="'src/app/partial/chaptersPartials/01_fingerFoodPartial.html'"
+        ng-if="fingerFood">
+    </ng-include>
 
     <p class="chapterTitleClass">PREGO</p>
     <!-- <ng-include src="'src/app/partial/chaptersPartials/pregoPartial.html'"></ng-include> -->
