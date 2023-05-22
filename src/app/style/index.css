@@ -14,7 +14,13 @@ body {
 }
 
 footer {
-    margin: 20px 0 20px;
-    font-size: 12px;
+    margin: 20px 0 10px;
+    width: 100%;
+    border-top: 1px solid var(--footer-border-color);
+    font-size: var(--footer-font-size);
     color: var(--footer-font-color);
+}
+
+footer > p {
+    margin: 4px 0 4px;
 }

@@ -1,6 +1,7 @@
 var menuApp = angular.module("menu", []);
 menuApp.controller("menuCtrl", ['$scope', function ($scope) {
 
+    // --- DATA
     $scope.chapters = [
         {chapter: 0, isSelected: false},
         {chapter: 1, isSelected: false},
@@ -26,11 +27,11 @@ menuApp.controller("menuCtrl", ['$scope', function ($scope) {
         {chapter: 21, isSelected: false}
     ];
 
+    // --- MECHANISM
     $scope.showHideChapter = function(chapter) {
         const auxConditions = [-1, chapter];
         const index = $scope.chapters.findIndex(chapter => chapter.isSelected === true);
         if (!auxConditions.includes(index)) $scope.chapters[index].isSelected = false;
         $scope.chapters[chapter].isSelected = !$scope.chapters[chapter].isSelected;
     }
-
 }]);
