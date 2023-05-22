@@ -2,5 +2,6 @@
 
 .classMainTitle {
     margin: 200px 0 50px;
+    width: var(--base-max-width);
     max-width: var(--base-max-width);
 }

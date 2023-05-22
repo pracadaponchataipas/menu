@@ -24,3 +24,7 @@ footer {
 footer > p {
     margin: 4px 0 4px;
 }
+
+footer > a {
+    color: var(--footer-font-color);
+}
