@@ -3,7 +3,7 @@
 .chapterTitleClass {
     padding: 10px 0 10px;
     background-color: var(--chapter-title-background-color);
-    border-radius: 40px;
+    border-radius: var(--chapter-title-border-radius);
     box-shadow: 0 2px 3px var(--chapter-title-shadow-color);
     font-size: var(--chapter-title-font-size);
     font-family: var(--chapter-title-font-family);
@@ -13,7 +13,7 @@
 
 .chapterTitleClass:hover {
     background-color: var(--chapter-title-background-color-hover);
-    box-shadow: 0 2px 3px var(--chapter-title-shadow-color-hover);
+    box-shadow: 2px 2px 3px var(--chapter-title-shadow-color-hover);
     text-decoration: underline;
     cursor: pointer;
 }
