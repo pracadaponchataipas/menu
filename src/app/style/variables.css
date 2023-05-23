@@ -1,22 +1,24 @@
 .mainTheme {
     --body-background-color: #000000;
-    --chapter-title-background-color: #85ad7b;
-    --chapter-title-background-color-hover: #5f8057;
-    --chapter-title-shadow-color: #808080;
-    --chapter-title-shadow-color-hover: #606060;
+    --chapter-title-background-color: #bdecb6;
+    --chapter-title-background-color-hover: #8cad87;
+    --chapter-title-shadow-color: #8cad87;
+    --chapter-title-shadow-color-hover: #bdecb6;
     --chapter-item-border-color: #565656;
     --footer-border-color: #787878;
     --chapter-title-font-color: #121212;
     --chapter-item-font-color: #cdcdcd;
     --footer-font-color: #ababab;
+    --footer-link-hover-font-color: #2b54ac;
 
     --chapter-title-font-family: serif;
     --chapter-content-font-family: sans-serif;
 
-    --chapter-title-font-size: 24px;
+    --chapter-title-font-size: 22px;
     --chapter-content-font-size: 16px;
-    --footer-font-size: 12px;
+    --footer-font-size: 10px;
 
     --base-max-width: 600px;
-}
 
+    --chapter-title-border-radius: 20px;
+}
